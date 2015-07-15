@@ -1,0 +1,59 @@
+
+ 
+@CHARSET "UTF-8";
+@font-face {
+    font-family: myfont;
+    src: url(SpecialElite.ttf);
+}
+body{
+	 font-family:myfont;
+	 margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	overflow:hidden;
+	}
+#grid {
+	background-color: #ccc0b3;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	border-radius: 5px;
+}
+
+.box {
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	
+	font-size: 35px;
+	font-weight: bold;
+	display: inline-block;
+	position: absolute;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	line-height: 80px;
+}
+.end{
+	position:absolute;
+	width:400px;height:400px;
+	background-color:#960;
+	z-index:10;opacity:0.7;
+	border-radius: 5px;
+	}
+.ende{
+	position:absolute;
+	width:400px;height:400px;
+	background-color:#F00;
+	z-index:-1;opacity:0;
+	border-radius: 5px;
+	}
+.contaner{
+	width:200px;
+	border-radius: 5px;
+	margin-left:-200px;
+	height:100%;
+	background:#F99
+	
+	}
